@@ -11,6 +11,7 @@ import InfoBox from "./InfoBox";
 import Map from "./Map";
 import Table from "./Table";
 import { sortData } from "./ultil";
+import Linegraph from "./Linegraph";
 function App() {
   //State to set all the countries as the menuItem
   const [countries, setCountries] = useState([]);
@@ -68,7 +69,7 @@ function App() {
         setCountryInfo(data);
       });
   };
-  console.log(countryInfo);
+
   return (
     <div className="app">
       <div className="app_left">
@@ -117,6 +118,7 @@ function App() {
           <h3>Live Cases by Country</h3>
           <Table countries={tableData} />
           <h3>WorldWide new Cases</h3>
+          <Linegraph />
         </CardContent>
       </Card>
     </div>
