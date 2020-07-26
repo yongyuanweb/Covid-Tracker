@@ -16,7 +16,13 @@ body {
   margin-bottom: 20px;
   justify-content: space-between;
 }
-
+.app_header > h1 {
+  color: red;
+  font-size: 2rem;
+}
+.app_dropdown {
+  background-color: white;
+}
 .app_stats {
   display: flex;
   justify-content: space-between;
@@ -24,7 +30,27 @@ body {
 .app_left {
   flex: 0.9;
 }
-
+.app_right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.app_graph {
+  flex-grow: 1;
+}
+.app_right .MuiCardContent-root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.app_rightTableTitle {
+  text-align: center;
+}
+.app_rightGraphTitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
