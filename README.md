@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The URL is https://covid-19-tracker-a5f47.web.app/ DEPLOY USING FIREBSE
+## The URL is https://covid-19-tracker-a5f47.web.app/ DEPLOY USING FIREBSE
 
 ## Available Scripts
 
